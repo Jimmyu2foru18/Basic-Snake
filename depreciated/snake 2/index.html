@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Snake Game - Tailwind Edition</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="bg-gray-900 text-white flex flex-col items-center justify-center min-h-screen font-mono">
+    <div class="bg-gray-800 p-8 rounded-lg shadow-2xl">
+        <h1 class="text-4xl font-bold mb-6 text-center text-green-400">Snake Master</h1>
+        <canvas id="gameCanvas" width="400" height="400" class="border-4 border-green-500 rounded-md shadow-lg"></canvas>
+        <div class="mt-6 flex justify-between items-center">
+            <p class="text-2xl">Score: <span id="score" class="font-bold text-yellow-400">0</span></p>
+            <button id="restartButton" class="bg-green-500 hover:bg-green-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline">Restart</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

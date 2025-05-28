@@ -1,0 +1,12 @@
+/* Custom styles can be added here if needed, complementing Tailwind CSS */
+canvas {
+    background-color: #1a202c; /* A slightly lighter dark for the canvas background */
+}
+
+/* Ensure the game canvas is sharp and not blurry */
+#gameCanvas {
+    image-rendering: -moz-crisp-edges;
+    image-rendering: -webkit-crisp-edges;
+    image-rendering: pixelated;
+    image-rendering: crisp-edges;
+}
