@@ -1,0 +1,38 @@
+
+/* Game Container Styles */
+.game-container {
+    max-width: 800px;
+    margin: 0 auto;
+    user-select: none; /* Prevent text selection */
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+}
+
+#snakeGame {
+    background-color: rgba(0, 0, 0, 0.3);
+    max-width: 100%;
+    height: auto;
+    outline: none; /* Remove focus outline */
+    cursor: pointer;
+}
+
+#snakeGame:focus {
+    outline: 2px solid #9146ff; /* Custom focus indicator */
+    outline-offset: 2px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .container {
+        padding: 1rem;
+    }
+
+    h1 {
+        font-size: 2.5rem;
+    }
+
+    .social-card {
+        margin-bottom: 1rem;
+    }
+}
